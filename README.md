@@ -1,5 +1,7 @@
 # MERN Booksearch
 
+![Screenshot](./assets/mern-screenshot.gif)
+
 [Github Repo can be found here](https://github.com/cah4758/mern-booksearch)
 
 [Click here for the Heroku Live App](https://mern-books-4758.herokuapp.com/)
