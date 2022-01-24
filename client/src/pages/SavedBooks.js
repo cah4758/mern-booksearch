@@ -15,7 +15,7 @@ import { removeBookId } from "../utils/localStorage";
 const SavedBooks = () => {
   const { loading, data } = useQuery(GET_ME);
   let userData;
-
+  console.log(data);
   if (data) {
     userData = data.user;
   }
@@ -30,7 +30,7 @@ const SavedBooks = () => {
     }
 
     try {
-      const { data } = await removeBook({
+      await removeBook({
         variables: { bookId },
       });
 
